@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Signika+Negative:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    background-color:blanchedalmond;
+}
+.nav{
+    display: flex;
+    height: 65px;
+    background-color: rgb(28, 68, 55);
+    color: white;
+    width: 600px;
+    margin: 2px;
+    padding: 2px;
+    border:1px solid black;
+    border-radius: 5px;
+    
+ 
+}
+#logo{
+    height: 50px;
+    border: 0px solid red;
+    border-radius:8px;
+    margin: 5px;
+}
+.nav h1{
+    font-size: larger;
+    font-family: 'Courgette', cursive;
+    margin: 17px;
+}
+.container{
+    height: 60vh;
+    background-color: rgb(125, 198, 172);
+    width: 600px;
+    margin: 2px;
+    padding: 2px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    overflow-y: auto;
+}
+.Outgoing h4{
+    font-family: 'Signika Negative', sans-serif;
+    padding:1px;
+    margin: 1px;
+    font-weight:bold;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: inline;
+   text-align: right;
+    
+}
+.Incoming h4{
+    font-family: 'Signika Negative', sans-serif;
+    padding:1px;
+    margin: 1px;
+    font-weight:bold;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+   
+   
+    
+}
+.container p{
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 2px;
+    padding-top: 5px;
+   
+}
+.Outgoing{
+    background-color: rgb(246, 251, 233);
+    height:min-content;
+    width:max-content;
+    padding: 7px;
+    margin: 5px;
+    border: 2px solid rgb(31, 62, 38);
+    border-radius: 7px;
+    display: block;
+    float: right;
+    clear: both;
+    min-width: 50px;
+    
+}
+.Incoming{
+    background-color: rgb(166, 225, 130);
+    height:fit-content;
+    width:max-content;
+    padding: 7px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 7px;
+    display: block;
+    float: left;
+    clear: both;
+    min-width:50px;
+}
+.sendMsg{
+    background-color: rgb(34, 131, 78);
+    height: 36px;
+    width: 600px;
+    margin: 2px;
+    padding: 2px;
+    border:1px solid black;
+    border-radius: 5px;
+    
+}
+#InputMsg{
+    width: 90%;
+    height:30px;
+    margin:1px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    cursor: text;
+}
+.btn {
+    height:32px;
+    width: 40px;
+    margin: 1px;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(160, 216, 194);
+}
+.btn:hover{
+    background-color: rgb(59, 133, 98);
+}
+
+
